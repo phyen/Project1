@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@drawable/Tungschool"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp" />
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bogoc"
+        android:hint="Họ tên"
+        android:drawableLeft="@mipmap/ic_TK1"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bogoc"
+        android:hint="Số điện thoại"
+        android:drawableLeft="@mipmap/ic_phone"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bogoc"
+        android:hint="Mật khẩu"
+        android:drawableLeft="@mipmap/ic_MK"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:text="Đăng kí"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/bobutton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:text="Đăng nhập tài khoản tại đây"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

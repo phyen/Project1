@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.project1.MainActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:src="@drawable/Tungschool"
+        android:layout_width="100dp"
+        android:layout_marginTop="18dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+   <TextView
+       android:text="@string/text"
+       android:textSize="20sp"
+       android:layout_width="150dp"
+       android:textColor="@color/colorPrimary"
+       android:layout_height="50dp"
+       android:layout_below="@+id/imageView"
+       android:layout_alignEnd="@+id/tvSignIn"
+       android:layout_marginEnd="22dp" />
+    <LinearLayout
+        android:id="@+id/linerLayout"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvSignIn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp">
+        <EditText
+            android:background="@drawable/bogoc"
+            android:hint="Tài khoản"
+            android:drawableLeft="@mipmap/ic_TK1"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <EditText
+            android:hint="Mật khẩu"
+            android:background="@drawable/bogoc"
+            android:drawableLeft="@mipmap/ic_MK"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_marginLeft="170dp"
+            android:text="@string/forgot_password"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <Button
+            android:textSize="20sp"
+            android:text="@string/logn_in"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/bobutton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginBottom="30dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSignIn" />
+
+
+
+</RelativeLayout>

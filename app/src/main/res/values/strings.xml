@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Project1</string>
+    <string name="sign_up"> Đăng kí tài khoản tại đây</string>
+    <string name="logn_in"> ĐĂNG NHẬP</string>
+    <string name="forgot_password"> Quên mật khẩu ?</string>
+    <string name="text">TUNGSCHOOL </string>
+    <string name="sign_in">"Ứng dụng TUNGSCHOOL</string>
+    <string name="body">"      Ứng dụng hỗ trợ các phụ huynh kết nối,tìm
+        kiếm gia sư cho con, nhanh chóng,chất..</string>
+    <string name="title_activity_parent">ParentActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
